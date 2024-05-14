@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.DomainAvailability</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/domainavailability</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Domain Availability Checker is a simple tool for checking the availability of a domain. It returns if the domain is available or not.</Description>
+    <RepositoryUrl>https://github.com/apiverve/domainavailability-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>domain availability checker; domain availability checker api; domain availability checker tool; domain availability checker software; domain availability checker service; domain availability checker library; domain availability checker sdk; domain availability checker code; domain availability checker script; domain availability checker program; domain availability checker application; domain availability checker app; domain availability checker utility; domain availability checker helper; domain availability checker helper tool; domain availability checker helper software; domain availability checker helper service; domain availability checker helper library; domain availability checker helper sdk; domain availability checker helper code; domain availability checker helper script; domain availability checker helper program; domain availability checker helper application; domain availability checker helper app; domain availability checker helper utility; domain availability checker helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
