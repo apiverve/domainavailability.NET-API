@@ -94,11 +94,8 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "domain": "myspace.com",
-    "isAvailable": false,
-    "owner": {
-      "registrar": "GoDaddy.com, LLC"
-    }
+    "available": true,
+    "domain": "myspace.com"
   }
 }
 ```
