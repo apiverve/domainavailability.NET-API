@@ -4,23 +4,13 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class owner
-{
-    [JsonProperty("registrar")]
-    public string registrar { get; set; }
-
-}
-
 public class data
 {
+    [JsonProperty("available")]
+    public bool available { get; set; }
+
     [JsonProperty("domain")]
     public string domain { get; set; }
-
-    [JsonProperty("isAvailable")]
-    public bool isAvailable { get; set; }
-
-    [JsonProperty("owner")]
-    public owner owner { get; set; }
 
 }
 
